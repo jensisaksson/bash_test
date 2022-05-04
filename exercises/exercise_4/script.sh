@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-CODE=6_5_9_3_1_1_1_2_8_3_8_5_4_3_1_0_8_7_0\r
+CODE=a_b_c_d_e_f_g_h_i_j_k_l_m_n_o_p_q_r_s_t_u_v_w_x_y_z\r
 
 echo "The answer is:"
+echo $CODE | cut -d'_' -f 12
 echo $CODE | cut -d'_' -f 5
-echo $CODE | cut -d'_' -f 4
-echo $CODE | cut -d'_' -f 10
-echo $CODE | cut -d'_' -f 18
+echo $CODE | cut -d'_' -f 5
+echo $CODE | cut -d'_' -f 20
